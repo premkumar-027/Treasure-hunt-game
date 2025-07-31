@@ -1,0 +1,31 @@
+# Treasure Hunt Game using conditional statements and logical operators
+
+print("🏴‍☠️ Welcome to the Treasure Hunt Game!")
+print("Your mission is to find the hidden treasure.\n")
+
+# Step 1: Crossroad
+
+
+direction = input("You're at a crossroad. Where do you want to go? (left/right): ").lower()
+
+if direction == "left":
+# Step 2: Lake
+
+    action = input("\nYou come to a lake. Do you want to swim or wait for a boat? (swim/wait): ").lower()
+
+    if action == "wait":
+# Step 3: Doors
+        door = input("\nYou safely arrive at the island. You see three doors: red, blue, yellow. "
+                     "Which one do you choose?: ").lower()
+
+        if door == "yellow":
+            print("\n🎉 Congratulations! You found the treasure! YOU WIN!")
+        elif door == "red" or door == "blue":
+            print("\n🔥 Oh no! That room was dangerous. You got burned or eaten. Game Over!")
+        else:
+            print("\n🚪 That door doesn't exist. Game Over!")
+    else:
+        print("\n🦈 You were attacked by a shark while swimming. Game Over!")
+
+else:
+    print("\n🚧 You fell into a hidden trap. Game Over!")
