@@ -1,20 +1,36 @@
-# Treasure Hunt Game using conditional statements and logical operators
+# Treasure Hunt Game with ASCII Art
+
+print(r"""
+                    ____...------------...____
+               _.-"` /o/__ ____ __ __  __ \o\_`"-._
+             .'     / /                    \ \     '.
+             |=====/o/======================\o\=====|
+             |____/_/________..____..________\_\____|
+             /   _/ \_     <_o#\__/#o_>     _/ \_   \
+             \_________\####/_________/
+              |===\!/========================\!/===|
+              |   |=|          .---.         |=|   |
+              |===|o|=========/     \========|o|===|
+              |   | |         \() ()/        | |   |
+              |===|o|======{'-.) A (.-'}=====|o|===|
+              | __/ \__     '-.\uuu/.-'    __/ \__ |
+              |==== .'.'^'.'.====|
+          jgs |  _\o/   __  {.' __  '.} _   _\o/  _|
+              `""""-""""""""""""""""""""""""""-""""`
+""")
 
 print("🏴‍☠️ Welcome to the Treasure Hunt Game!")
 print("Your mission is to find the hidden treasure.\n")
 
 # Step 1: Crossroad
-
-
 direction = input("You're at a crossroad. Where do you want to go? (left/right): ").lower()
 
 if direction == "left":
-# Step 2: Lake
-
+    # Step 2: Lake
     action = input("\nYou come to a lake. Do you want to swim or wait for a boat? (swim/wait): ").lower()
 
     if action == "wait":
-# Step 3: Doors
+        # Step 3: Doors
         door = input("\nYou safely arrive at the island. You see three doors: red, blue, yellow. "
                      "Which one do you choose?: ").lower()
 
