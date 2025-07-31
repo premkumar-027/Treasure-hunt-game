@@ -28,5 +28,5 @@ The awesome ASCII art used in this game is sourced from:
 Feel free to explore and replace with your own styles for a different treasure hunt experience
 
 👨‍💻 Created By
-Prem Kumar Reddy . V
+Prem Kumar Reddy.V
 GitHub: https://github.com/premkumar-027
